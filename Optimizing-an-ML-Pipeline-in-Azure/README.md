@@ -78,5 +78,5 @@ Post that we need to use the Azure AutoML Feature to find the best model and bes
 
 Here are the references used for completing the project
 
-- https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.hyperdrive.banditpolicy?view=azure-ml-py
+- [Details on BanditPolicy](https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.hyperdrive.banditpolicy?view=azure-ml-py)
 
