@@ -74,6 +74,8 @@ We can notice that the dataset has Class Imbalance, we need to treat this by app
 **If you did not delete your compute cluster in the code, please complete this section. Otherwise, delete this section.**
 **Image of cluster marked for deletion**
 
+https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Deleting_compute.JPG
+
 
 ### Reference:
 
