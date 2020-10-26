@@ -70,6 +70,10 @@ Best Auto ML model
 
 ![Best Automl model](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Automl%20outputs/Best_automl_model.JPG)
 
+Best Metrices
+
+![Best Metrices](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Automl%20outputs/Automl_bestmetrics.JPG)
+
 ## Future work
 
 We can notice that the dataset has Class Imbalance, we need to treat this by applying few balancing techniques like SMOTE,ADASYN and try to find our finding
