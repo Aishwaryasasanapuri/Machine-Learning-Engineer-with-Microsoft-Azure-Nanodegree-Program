@@ -80,4 +80,8 @@ We can notice that the dataset has Class Imbalance, we need to treat this by app
 Here are the references used for completing the project
 
 - [Details on BanditPolicy](https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.hyperdrive.banditpolicy?view=azure-ml-py)
+- [More on Sklearn class](https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.sklearn.sklearn?view=azure-ml-py)
+- [Argparse](https://realpython.com/command-line-interfaces-python-argparse/)
+- [Details on hyperdrive config class](https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.hyperdrive.hyperdriveconfig?view=azure-ml-py)
+- [Details on Run class](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.run.Run?view=azure-ml-py)
 
