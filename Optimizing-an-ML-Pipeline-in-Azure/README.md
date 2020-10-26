@@ -47,6 +47,14 @@ Post that we need to use the Azure AutoML Feature to find the best model and bes
    2. Slack_amount :- The absolute distance allowed from the best performing run.
    3. evaluation_interval :- The frequency for applying the policy.
    4. delay_evaluation :- The number of intervals for which to delay the first policy evaluation. If specified, the policy applies every multiple of evaluation_interval that is greater than or equal to delay_evaluation.
+   
+![Child run](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Hyperdrive%20ouputs/Child_runs.JPG)
+   
+![Best metrices](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Hyperdrive%20ouputs/Best_metrics.JPG)
+
+![Hyperdrive metrices](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Hyperdrive%20ouputs/Hyperdrive_metrics.JPG)
+
+![A](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Hyperdrive%20ouputs/3d_scatterplot.JPG)
 
 ## AutoML
 **AutoML means Automated Machine Learning**
