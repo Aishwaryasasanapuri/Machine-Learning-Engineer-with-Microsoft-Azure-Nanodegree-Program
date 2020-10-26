@@ -15,7 +15,6 @@ The best performing model was a ***Voting Ensemble*** of **Xgboost classifier** 
 - Train.py
 - Project.ipynb
 
-
 We need to build a Machine learning model using skikit learn and tune the hyper parameters to find the best model using azure ML python SDK and Hyper Drive.
 Post that we need to use the Azure AutoML Feature to find the best model and best Hyperparameters.
 
@@ -74,8 +73,7 @@ We can notice that the dataset has Class Imbalance, we need to treat this by app
 **If you did not delete your compute cluster in the code, please complete this section. Otherwise, delete this section.**
 **Image of cluster marked for deletion**
 
-https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Deleting_compute.JPG
-
+![Deleting Compute](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Deleting_compute.JPG)
 
 ### Reference:
 
