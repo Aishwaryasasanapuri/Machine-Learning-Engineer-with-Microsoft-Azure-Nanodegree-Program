@@ -29,7 +29,16 @@ Post that we need to use the Azure AutoML Feature to find the best model and bes
 - The classification algorithm used here is **Logistic Regression** with accuracy as the primary metric for classification which is completely defined in the train.py file
 - Finally ,the best run of the hyperdrive is noted and the best model in the best run is saved.
 
-**What are the benefits of the parameter sampler you chose?**
+**The benefits of the parameter sampler **
+
+- Here I have used Random Parameter Sampling in the parameter sampler so that it can be used to provide random sampling over a hyperparameter search space.
+- It also has the advantage of performing equally as Grid Search with lesser compute power requirements.
+
+### Hyperparameters
+
+Inverse regularization parameter(C)- A control variable that retains strength modification of Regularization by being inversely positioned to the Lambda regulator. The relationship, would be that lowering C - would strengthen the Lambda regulator.
+
+2.No of iterations(max_iter):The number of times we want the learning to happen. This helps is solving high complex problems with large training hours
 
 **What are the benefits of the early stopping policy you chose?**
 
