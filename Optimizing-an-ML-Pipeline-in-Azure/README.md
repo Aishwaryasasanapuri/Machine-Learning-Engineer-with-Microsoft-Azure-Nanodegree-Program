@@ -61,6 +61,11 @@ Post that we need to use the Azure AutoML Feature to find the best model and bes
 ## Pipeline comparison
 **Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
 
+- Overall,the difference in accuracy between the AutoML model and the Hyperdrive tuned custom model is not very much. AutoML accuracy was 0.91763 while the Hyperdrive accuracy was 0.91006
+
+- With Respect to architecture AutoML was better than hyperdrive because it tried a lot of different models, which is quite impossible to do with Hyperdrive, as that would require us to create a new pipeline for each model.
+
+
 ## Future work
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
 
