@@ -8,7 +8,7 @@ This model is then compared to an Azure AutoML run.
 ## Summary
  This Project aims at making a binary prediction to find whether customers will join a Bank or Not.This dataset is related to direct marketing campaigns of a Portuguese banking sector. The campaigns were based on phone calls.
 
-The best performing model was a ***Voting Ensemble*** of **Xgboost classifier** using standard scaler wrapper. This was found using Automl feature of Azure.
+The best performing model was a **Voting Ensemble** of ***Xgboost classifier*** using standard scaler wrapper. This was found using Automl feature of Azure.
 
 ### Files Used to perform the Analysis are 
 
@@ -64,6 +64,11 @@ Post that we need to use the Azure AutoML Feature to find the best model and bes
 
 - With Respect to architecture AutoML was better than hyperdrive because it tried a lot of different models, which is quite impossible to do with Hyperdrive, as that would require us to create a new pipeline for each model.
 
+![Automl models](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Automl%20outputs/Automl_models.JPG)
+
+Best Auto ML model
+
+![Best Automl model](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Automl%20outputs/Best_automl_model.JPG)
 
 ## Future work
 
