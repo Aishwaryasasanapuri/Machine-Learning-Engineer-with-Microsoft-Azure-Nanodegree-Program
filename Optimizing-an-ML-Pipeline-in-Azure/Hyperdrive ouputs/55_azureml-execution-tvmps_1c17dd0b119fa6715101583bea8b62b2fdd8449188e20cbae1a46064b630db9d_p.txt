@@ -1,0 +1,161 @@
+2020-10-26T04:22:29Z Starting output-watcher...
+2020-10-26T04:22:29Z IsDedicatedCompute == False, starting polling for Low-Pri Preemption
+2020-10-26T04:22:30Z Executing 'Copy ACR Details file' on 10.0.0.7
+2020-10-26T04:22:30Z Copy ACR Details file succeeded on 10.0.0.7. Output: 
+>>>   
+>>>   
+Login Succeeded
+Using default tag: latest
+latest: Pulling from azureml/azureml_2a0e99d2b6c0b56ef3ce1012e5647b1d
+Digest: sha256:b9e291d2ff8795a500b8e0d0584ca186af2c6b6d3bd70cd5a1526a1a1960f82f
+Status: Image is up to date for 46232f122c014cc9a4afeff0876e7b9f.azurecr.io/azureml/azureml_2a0e99d2b6c0b56ef3ce1012e5647b1d:latest
+1a27b753f5a3c2014ad36dabf32efec926dc4b769f7921681adb76350c50de3e
+2020/10/26 04:22:32 setuptask.go:390: Starting App Insight Logger for task:  containerSetup
+2020/10/26 04:22:32 logger.go:297: Version: 3.0.01381.0008 Branch: .SourceBranch Commit: 9725c87
+2020/10/26 04:22:32 utils.go:309: /dev/infiniband/uverbs0 found (implying presence of InfiniBand)?: false
+2020/10/26 04:22:32 logger.go:297: sshd inside container not required for job, skipping setup.
+2020/10/26 04:22:33 appinsightlogger.go:40: All App Insights Logs was send successfully
+2020-10-26T04:22:38Z Job environment preparation succeeded on 10.0.0.7. Output: 
+>>>   2020/10/26 04:22:26 setuptask.go:390: Starting App Insight Logger for task:  prepareJobEnvironment
+>>>   2020/10/26 04:22:26 logger.go:297: Version: 3.0.01381.0008 Branch: .SourceBranch Commit: 9725c87
+>>>   2020/10/26 04:22:26 logger.go:297: runtime.GOOS linux
+>>>   2020/10/26 04:22:26 dynamicconfigs.go:70: Reading dyanamic configs
+>>>   2020/10/26 04:22:26 selfupdate.go:183: Container sas url: https://baiscriptssn1prod.blob.core.windows.net/aihosttools?sv=2018-03-28&sr=c&si=aihosttoolspolicy&sig=nw%2FdVVtXVw5X%2Fv1RNVe9gGnpR2tHNu9A%2BO103GbElXo%3D
+>>>   2020/10/26 04:22:26 utils.go:692: Failed to read from file /mnt/batch/tasks/startup/wd/az_resource/xdsenv.variable/azsecpack.variables, open /mnt/batch/tasks/startup/wd/az_resource/xdsenv.variable/azsecpack.variables: no such file or directory
+>>>   2020/10/26 04:22:26 logger.go:297: [in autoUpgradeFromJobNodeSetup] Is Azsecpack installed false, isEnable false,
+>>>   2020/10/26 04:22:26 logger.go:297: azsecpack isEnable:false,turnoffaz:true
+>>>   2020/10/26 04:22:26 logger.go:297: [doTurnOffAzsecpack] output:   Active: inactive (dead)
+>>>   ,err:<nil>.
+>>>   2020/10/26 04:22:26 logger.go:297: OS patching disabled by dynamic configs. Skipping.
+>>>   2020/10/26 04:22:26 logger.go:297: DetonationChamber is not enabled on this subscription: 54424c07-8d8d-4896-9c92-b731a63208d3
+>>>   2020/10/26 04:22:26 logger.go:297: GPU count found: 0
+>>>   2020/10/26 04:22:26 logger.go:297: AMLComputeXDSEndpoint:  https://sn1-prodk8ds.batchai.core.windows.net
+>>>   2020/10/26 04:22:26 logger.go:297: AMLComputeXDSApiVersion:  2018-02-01
+>>>   2020/10/26 04:22:26 logger.go:297: Creating directory /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/config
+>>>   2020/10/26 04:22:26 logger.go:297: This is not a aml-workstation (compute instance), current offer type: azureml. Starting identity responder as part of prepareJobEnvironment.
+>>>   2020/10/26 04:22:26 logger.go:297: Starting identity responder.
+>>>   2020/10/26 04:22:26 userlogger.go:47: Starting identity responder.
+>>>   2020/10/26 04:22:26 utils.go:321: Failed to open file /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/config/.batchai.IdentityResponder.envlist: open /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/config/.batchai.IdentityResponder.envlist: no such file or directory
+>>>   2020/10/26 04:22:26 logger.go:297: Logfile used for identity responder: /mnt/batch/tasks/workitems/b93b311d-a57d-4896-bfae-0394f84fa64f/job-1/hd_1676fa36-e0d4-4e4_c9e15f7e-ab59-4a1d-8780-9bbee3c331a8/IdentityResponderLog-tvmps_1c17dd0b119fa6715101583bea8b62b2fdd8449188e20cbae1a46064b630db9d_p.txt
+>>>   2020/10/26 04:22:26 userlogger.go:47: Logfile used for identity responder: /mnt/batch/tasks/workitems/b93b311d-a57d-4896-bfae-0394f84fa64f/job-1/hd_1676fa36-e0d4-4e4_c9e15f7e-ab59-4a1d-8780-9bbee3c331a8/IdentityResponderLog-tvmps_1c17dd0b119fa6715101583bea8b62b2fdd8449188e20cbae1a46064b630db9d_p.txt
+>>>   2020/10/26 04:22:26 logger.go:297: Started Identity Responder for job.
+>>>   2020/10/26 04:22:26 userlogger.go:47: Started Identity Responder for job.
+>>>   2020/10/26 04:22:26 logger.go:297: Creating directory /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/wd
+>>>   2020/10/26 04:22:26 logger.go:297: Creating directory /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/shared
+>>>   2020/10/26 04:22:26 logger.go:297: Mounting job level file systems
+>>>   2020/10/26 04:22:26 logger.go:297: Creating directory /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts
+>>>   2020/10/26 04:22:26 protocol.go:795: Attempting to read datastore credentials file: /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/config/.amlcompute.datastorecredentials
+>>>   2020/10/26 04:22:26 protocol.go:797: Datastore credentials file not found, skipping.
+>>>   2020/10/26 04:22:26 protocol.go:764: Attempting to read runtime sas tokens file: /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/config/.master.runtimesastokens
+>>>   2020/10/26 04:22:26 protocol.go:766: Runtime sas tokens file not found, skipping.
+>>>   2020/10/26 04:22:26 logger.go:297: No NFS configured
+>>>   2020/10/26 04:22:26 logger.go:297: No Azure File Shares configured
+>>>   2020/10/26 04:22:26 logger.go:297: Mounting blob file systems
+>>>   2020/10/26 04:22:26 logger.go:297: Blobfuse runtime version blobfuse 1.0.3
+>>>   2020/10/26 04:22:26 logger.go:297: Mounting azureml-blobstore-46232f12-2c01-4cc9-a4af-eff0876e7b9f container from mlstrg122950 account at /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore
+>>>   2020/10/26 04:22:26 logger.go:297: Using Compute Identity to authenticate Blobfuse: false.
+>>>   2020/10/26 04:22:26 logger.go:297: Using Compute Identity to authenticate Blobfuse: false.
+>>>   2020/10/26 04:22:26 userlogger.go:47: Running following command: &{/bin/bash [bash -c sudo blobfuse /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore --tmp-path=/mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/caches/workspaceblobstore --file-cache-timeout-in-seconds=1000000 -o nonempty -o allow_other --config-file=/mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/configs/workspaceblobstore.cfg --log-level=LOG_WARNING] []  <nil>   [] <nil> <nil> <nil> <nil> <nil> false [] [] [] [] <nil> <nil>}
+>>>   2020/10/26 04:22:26 userlogger.go:47: Successfully mounted a/an Blobfuse File System at /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore
+>>>   2020/10/26 04:22:26 logger.go:297: Waiting for blobfs to be mounted at /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore
+>>>   2020/10/26 04:22:27 logger.go:297: Successfully mounted azureml-blobstore-46232f12-2c01-4cc9-a4af-eff0876e7b9f container from mlstrg122950 account at /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore
+>>>   2020/10/26 04:22:27 logger.go:297: No unmanaged file systems configured
+>>>   2020/10/26 04:22:27 logger.go:297: Creating directory /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6/azureml_compute_logs
+>>>   2020/10/26 04:22:29 logger.go:297: Creating directory /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6/logs
+>>>   2020/10/26 04:22:29 logger.go:297: Creating directory /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6/outputs
+>>>   2020/10/26 04:22:29 userlogger.go:47: Starting output-watcher...
+>>>   2020/10/26 04:22:29 logger.go:297: Start to pulling docker image: 46232f122c014cc9a4afeff0876e7b9f.azurecr.io/azureml/azureml_2a0e99d2b6c0b56ef3ce1012e5647b1d
+>>>   2020/10/26 04:22:29 logger.go:297: Start pull docker image: 46232f122c014cc9a4afeff0876e7b9f.azurecr.io
+>>>   2020/10/26 04:22:29 logger.go:297: Getting ACR Credentials from EMS
+>>>   2020/10/26 04:22:29 logger.go:297: Requesting XDS for registry details.
+>>>   2020/10/26 04:22:29 logger.go:297: Attempt 1 of http call to https://sn1-prodk8ds.batchai.core.windows.net/hosttoolapi/subscriptions/54424c07-8d8d-4896-9c92-b731a63208d3/resourceGroups/aml-quickstarts-122950/workspaces/quick-starts-ws-122950/clusters/udacity-project1/nodes/tvmps_1c17dd0b119fa6715101583bea8b62b2fdd8449188e20cbae1a46064b630db9d_p?api-version=2018-02-01
+>>>   2020/10/26 04:22:30 logger.go:297: Attempt 1. XDS Api returned non-successful ErrorCode: Success
+>>>    ErrorMessage: 
+>>>   
+>>>   2020/10/26 04:22:30 logger.go:297: Got container registry details from credentials service for registry address: 46232f122c014cc9a4afeff0876e7b9f.azurecr.io.
+>>>   2020/10/26 04:22:30 logger.go:297: Writing ACR Details to file...
+>>>   2020/10/26 04:22:30 logger.go:297: Copying ACR Details file to worker nodes...
+>>>   2020/10/26 04:22:30 userlogger.go:47: Executing 'Copy ACR Details file' on 10.0.0.7
+>>>   2020/10/26 04:22:30 userlogger.go:47: Copy ACR Details file succeeded on 10.0.0.7. Output: 
+>>>   >>>   
+>>>   >>>   
+>>>   2020/10/26 04:22:30 logger.go:297: Successfully retrieved ACR Credentials from EMS.
+>>>   2020/10/26 04:22:30 logger.go:297: Container registry is ACR.
+>>>   2020/10/26 04:22:30 logger.go:297: start login to the docker registry
+>>>   2020/10/26 04:22:30 logger.go:297: Successfully logged into the docker registry.
+>>>   2020/10/26 04:22:30 logger.go:297: Start run pull docker image command
+>>>   2020/10/26 04:22:30 logger.go:297: Pull docker image succeeded.
+>>>   2020/10/26 04:22:30 logger.go:297: Pull docker image time: 988.11742ms
+>>>   
+>>>   2020/10/26 04:22:31 logger.go:297: Docker Version that this nodes use are: 3.0.1
+>>>   
+>>>   2020/10/26 04:22:31 utils.go:309: /dev/infiniband/uverbs0 found (implying presence of InfiniBand)?: false
+>>>   2020/10/26 04:22:31 logger.go:297: Running Docker command: docker run --ulimit memlock=9223372036854775807 --ulimit nofile=262144:262144 --cap-add sys_ptrace --name hd_1676fa36-e0d4-4e42-9b34-49722a723188_6 -v /mnt/batch/tasks/shared/LS_root/mounts:/mnt/batch/tasks/shared/LS_root/mounts -v /mnt/batch/tasks/shared/LS_root/configs:/mnt/batch/tasks/shared/LS_root/configs -v /mnt/batch/tasks/shared/LS_root/shared:/mnt/batch/tasks/shared/LS_root/shared -v /mnt/batch/tasks/workitems/b93b311d-a57d-4896-bfae-0394f84fa64f/job-1/hd_1676fa36-e0d4-4e4_c9e15f7e-ab59-4a1d-8780-9bbee3c331a8/certs:/mnt/batch/tasks/workitems/b93b311d-a57d-4896-bfae-0394f84fa64f/job-1/hd_1676fa36-e0d4-4e4_c9e15f7e-ab59-4a1d-8780-9bbee3c331a8/certs -v /mnt/batch/tasks/startup:/mnt/batch/tasks/startup -v /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6/azureml_compute_logs:/mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6/azureml_compute_logs -v /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6:/mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6 -v /mnt/batch/tasks/workitems/b93b311d-a57d-4896-bfae-0394f84fa64f/job-1/hd_1676fa36-e0d4-4e4_c9e15f7e-ab59-4a1d-8780-9bbee3c331a8/wd:/mnt/batch/tasks/workitems/b93b311d-a57d-4896-bfae-0394f84fa64f/job-1/hd_1676fa36-e0d4-4e4_c9e15f7e-ab59-4a1d-8780-9bbee3c331a8/wd -v /opt/azureml:/opt/azureml:ro -w /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/wd --expose 23 --env-file /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/config/.batchai.envlist --shm-size 2g -d -it --privileged --net=host 46232f122c014cc9a4afeff0876e7b9f.azurecr.io/azureml/azureml_2a0e99d2b6c0b56ef3ce1012e5647b1d
+>>>   2020/10/26 04:22:33 logger.go:297: Container ssh is not required for job type.
+>>>   2020/10/26 04:22:33 logger.go:297: runSpecialJobTask: os.GetEnv constants.StdouterrDir: /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6/azureml_compute_logs
+>>>   2020/10/26 04:22:33 logger.go:297: runSpecialJobTask: Raw cmd for preparation is passed is: /azureml-envs/azureml_ba9520bf386d662001eeb9523395794e/bin/python /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6-setup/job_prep.py --snapshots '[{"Id":"e59040a0-018e-49c2-9594-78a06febc34f","PathStack":["."],"SnapshotEntityId":null}]'
+>>>   2020/10/26 04:22:33 logger.go:297: runSpecialJobTask: stdout path for preparation is passed is: /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6/azureml_compute_logs/65_job_prep-tvmps_1c17dd0b119fa6715101583bea8b62b2fdd8449188e20cbae1a46064b630db9d_p.txt
+>>>   2020/10/26 04:22:33 logger.go:297: runSpecialJobTask: stderr path for preparation is passed is: /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6/azureml_compute_logs/65_job_prep-tvmps_1c17dd0b119fa6715101583bea8b62b2fdd8449188e20cbae1a46064b630db9d_p.txt
+>>>   2020/10/26 04:22:33 logger.go:297: native cmd: cd /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6;/azureml-envs/azureml_ba9520bf386d662001eeb9523395794e/bin/python /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6-setup/job_prep.py --snapshots '[{"Id":"e59040a0-018e-49c2-9594-78a06febc34f","PathStack":["."],"SnapshotEntityId":null}]'
+>>>   2020/10/26 04:22:33 logger.go:297: runSpecialJobTask: commons.GetOsPlatform(): ubuntu
+>>>   2020/10/26 04:22:33 logger.go:297: runSpecialJobTask: Running cmd: &{/usr/bin/docker [docker exec -t hd_1676fa36-e0d4-4e42-9b34-49722a723188_6 bash -c if [ -f ~/.bashrc ]; then PS1_back=$PS1; PS1='$'; . ~/.bashrc; PS1=$PS1_back; fi;PATH=$PATH:$AZ_BATCH_NODE_STARTUP_DIR/wd/;cd /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6;/azureml-envs/azureml_ba9520bf386d662001eeb9523395794e/bin/python /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6-setup/job_prep.py --snapshots '[{"Id":"e59040a0-018e-49c2-9594-78a06febc34f","PathStack":["."],"SnapshotEntityId":null}]'] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> <nil> false [] [] [] [] <nil> <nil>}
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: job preparation exited with code 0 and err <nil>
+>>>   
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: [2020-10-26T04:22:34.365785] Entering job preparation.
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: [2020-10-26T04:22:35.071029] Starting job preparation.
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: [2020-10-26T04:22:35.071068] Extracting the control code.
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: [2020-10-26T04:22:35.111644] fetching and extracting the control code on master node.
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: [2020-10-26T04:22:35.111717] Starting extract_project.
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: [2020-10-26T04:22:35.111820] Starting to extract zip file.
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: [2020-10-26T04:22:36.022594] Finished extracting zip file.
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: [2020-10-26T04:22:36.223686] Using urllib.request Python 3.0 or later
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: [2020-10-26T04:22:36.223759] Start fetching snapshots.
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: [2020-10-26T04:22:36.223835] Start fetching snapshot.
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: [2020-10-26T04:22:36.223857] Retrieving project from snapshot: e59040a0-018e-49c2-9594-78a06febc34f
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: Starting the daemon thread to refresh tokens in background for process with pid = 52
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: [2020-10-26T04:22:36.913846] Finished fetching snapshot.
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: [2020-10-26T04:22:36.913895] Finished fetching snapshots.
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: [2020-10-26T04:22:36.913920] Finished extract_project.
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: [2020-10-26T04:22:36.931151] Finished fetching and extracting the control code.
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: [2020-10-26T04:22:36.934291] downloadDataStore - Download from datastores if requested.
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: [2020-10-26T04:22:36.935711] Start run_history_prep.
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: [2020-10-26T04:22:37.006192] Entering context manager injector.
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: [2020-10-26T04:22:37.864992] downloadDataStore completed
+>>>   2020/10/26 04:22:38 logger.go:297: runSpecialJobTask: preparation: [2020-10-26T04:22:37.868379] Job preparation is complete.
+>>>   2020/10/26 04:22:38 appinsightlogger.go:40: All App Insights Logs was send successfully
+>>>   2020/10/26 04:22:38 logger.go:297: Process Exiting with Code:  0
+>>>   
+2020-10-26T04:22:38Z 127.0.0.1 slots=2 max-slots=2
+2020-10-26T04:22:38Z launching Custom job
+2020-10-26T04:23:16Z job exited with code 0
+2020-10-26T04:23:16Z Executing 'JobRelease task' on 10.0.0.7
+2020-10-26T04:23:21Z JobRelease task succeeded on 10.0.0.7. Output: 
+>>>   2020/10/26 04:23:16 setuptask.go:390: Starting App Insight Logger for task:  jobRelease
+>>>   2020/10/26 04:23:16 logger.go:297: Version: 3.0.01381.0008 Branch: .SourceBranch Commit: 9725c87
+>>>   2020/10/26 04:23:16 logger.go:297: runSpecialJobTask: os.GetEnv constants.StdouterrDir: /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6/azureml_compute_logs
+>>>   2020/10/26 04:23:16 logger.go:297: runSpecialJobTask: Raw cmd for postprocessing is passed is: export AZ_BATCHAI_RUN_STATUS='SUCCEEDED';export AZ_BATCHAI_LOG_UPLOAD_FAILED='false';/azureml-envs/azureml_ba9520bf386d662001eeb9523395794e/bin/python $AZ_BATCHAI_JOB_MOUNT_ROOT/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6/azureml-setup/job_release.py
+>>>   2020/10/26 04:23:16 logger.go:297: runSpecialJobTask: stdout path for postprocessing is passed is: /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6/azureml_compute_logs/75_job_post-tvmps_1c17dd0b119fa6715101583bea8b62b2fdd8449188e20cbae1a46064b630db9d_p.txt
+>>>   2020/10/26 04:23:16 logger.go:297: runSpecialJobTask: stderr path for postprocessing is passed is: /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6/azureml_compute_logs/75_job_post-tvmps_1c17dd0b119fa6715101583bea8b62b2fdd8449188e20cbae1a46064b630db9d_p.txt
+>>>   2020/10/26 04:23:16 logger.go:297: native cmd: cd /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6;export AZ_BATCHAI_RUN_STATUS='SUCCEEDED';export AZ_BATCHAI_LOG_UPLOAD_FAILED='false';/azureml-envs/azureml_ba9520bf386d662001eeb9523395794e/bin/python $AZ_BATCHAI_JOB_MOUNT_ROOT/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6/azureml-setup/job_release.py
+>>>   2020/10/26 04:23:16 logger.go:297: runSpecialJobTask: commons.GetOsPlatform(): ubuntu
+>>>   2020/10/26 04:23:16 logger.go:297: runSpecialJobTask: Running cmd: &{/usr/bin/docker [docker exec -t hd_1676fa36-e0d4-4e42-9b34-49722a723188_6 bash -c if [ -f ~/.bashrc ]; then PS1_back=$PS1; PS1='$'; . ~/.bashrc; PS1=$PS1_back; fi;PATH=$PATH:$AZ_BATCH_NODE_STARTUP_DIR/wd/;cd /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-122950/azureml/hd_1676fa36-e0d4-4e42-9b34-49722a723188_6/mounts/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6;export AZ_BATCHAI_RUN_STATUS='SUCCEEDED';export AZ_BATCHAI_LOG_UPLOAD_FAILED='false';/azureml-envs/azureml_ba9520bf386d662001eeb9523395794e/bin/python $AZ_BATCHAI_JOB_MOUNT_ROOT/workspaceblobstore/azureml/HD_1676fa36-e0d4-4e42-9b34-49722a723188_6/azureml-setup/job_release.py] []  <nil> <nil> <nil> [] <nil> <nil> <nil> <nil> <nil> false [] [] [] [] <nil> <nil>}
+>>>   2020/10/26 04:23:21 logger.go:297: runSpecialJobTask: job postprocessing exited with code 0 and err <nil>
+>>>   
+>>>   2020/10/26 04:23:21 logger.go:297: runSpecialJobTask: postprocessing: Entering job release. Current time:2020-10-26T04:23:17.163862
+>>>   2020/10/26 04:23:21 logger.go:297: runSpecialJobTask: postprocessing: Starting job release. Current time:2020-10-26T04:23:18.338508
+>>>   2020/10/26 04:23:21 logger.go:297: runSpecialJobTask: postprocessing: Logging experiment finalizing status in history service.
+>>>   2020/10/26 04:23:21 logger.go:297: runSpecialJobTask: postprocessing: [2020-10-26T04:23:18.340380] job release stage : upload_datastore starting...
+>>>   2020/10/26 04:23:21 logger.go:297: runSpecialJobTask: postprocessing: Starting the daemon thread to refresh tokens in background for process with pid = 348
+>>>   2020/10/26 04:23:21 logger.go:297: runSpecialJobTask: postprocessing: [{}] job release stage : start importing azureml.history._tracking in run_history_release.
+>>>   2020/10/26 04:23:21 logger.go:297: runSpecialJobTask: postprocessing: [2020-10-26T04:23:18.343365] job release stage : execute_job_release starting...
+>>>   2020/10/26 04:23:21 logger.go:297: runSpecialJobTask: postprocessing: [2020-10-26T04:23:18.351002] job release stage : copy_batchai_cached_logs starting...
+>>>   2020/10/26 04:23:21 logger.go:297: runSpecialJobTask: postprocessing: [2020-10-26T04:23:18.351162] job release stage : copy_batchai_cached_logs completed...
+>>>   2020/10/26 04:23:21 logger.go:297: runSpecialJobTask: postprocessing: [2020-10-26T04:23:18.352132] Entering context manager injector.
+>>>   2020/10/26 04:23:21 logger.go:297: runSpecialJobTask: postprocessing: [2020-10-26T04:23:18.353958] job release stage : upload_datastore completed...
+>>>   2020/10/26 04:23:21 logger.go:297: runSpecialJobTask: postprocessing: [2020-10-26T04:23:18.744834] job release stage : send_run_telemetry starting...
+>>>   2020/10/26 04:23:21 logger.go:297: runSpecialJobTask: postprocessing: [2020-10-26T04:23:19.264997] job release stage : execute_job_release completed...
+>>>   2020/10/26 04:23:21 logger.go:297: runSpecialJobTask: postprocessing: [2020-10-26T04:23:20.928980] job release stage : send_run_telemetry completed...
+>>>   2020/10/26 04:23:21 logger.go:297: runSpecialJobTask: postprocessing: Job release is complete. Current time:2020-10-26T04:23:20.929319
+>>>   2020/10/26 04:23:21 appinsightlogger.go:40: All App Insights Logs was send successfully
+>>>   
+2020-10-26T04:23:21Z Executing 'Job environment clean-up' on 10.0.0.7

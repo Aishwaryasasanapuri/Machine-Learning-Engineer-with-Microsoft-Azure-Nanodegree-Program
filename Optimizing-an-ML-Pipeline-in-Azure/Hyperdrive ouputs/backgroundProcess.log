@@ -1,0 +1,211 @@
+2020-10-26 04:22:58.8571|DEBUG|EngineHost|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|Startup|MessageParser initialized|
+2020-10-26 04:22:58.8838|DEBUG|EngineHost|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|Startup|MessageLoop initialized|
+2020-10-26 04:23:00.0937|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2020-10-26 04:23:00.0937|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ParseDelimitedBlock","id":"1"}|
+2020-10-26 04:23:00.0937|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.DropColumnsBlock","id":"2"}|
+2020-10-26 04:23:00.0937|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.TakeBlock","id":"3"}|
+2020-10-26 04:23:00.0937|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"4"}|
+2020-10-26 04:23:00.1037|DEBUG|Caching|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-10-26 04:23:00.1212|DEBUG|Caching|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-10-26 04:23:00.1212|DEBUG|Caching|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-10-26 04:23:00.1493|DEBUG|DynamicPythonPathCLexExecutor|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|EnsureCLexExecutorReady|No more tasks in progress. Creating new CLexExecutor.|
+2020-10-26 04:23:00.1775|INFO|CLexExecutor|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "4ef769da-2327-4a3d-9892-4e2ed4e585a6"
+}
+2020-10-26 04:23:00.2971|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|MapReduceExecutor|Execution started|{
+  "ExecutionId": "3e27bbf3-b00d-4692-bb3c-1c8e72657b8d",
+  "Main": "dGF8S8E19N8C4QsQ0gM6FGp5e3yVctwjRhmb+eMDURk="
+}
+2020-10-26 04:23:01.2880|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "3e27bbf3-b00d-4692-bb3c-1c8e72657b8d",
+  "Main": "dGF8S8E19N8C4QsQ0gM6FGp5e3yVctwjRhmb+eMDURk="
+}
+2020-10-26 04:23:01.2961|DEBUG|Caching|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-10-26 04:23:01.3500|DEBUG|Caching|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-10-26 04:23:01.3551|DEBUG|Caching|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-10-26 04:23:01.3551|DEBUG|Caching|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-10-26 04:23:01.3657|INFO|CLexExecutor|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "d0815731-e497-487d-b67d-b2b354546bc0"
+}
+2020-10-26 04:23:01.3716|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|MapReduceExecutor|Execution started|{
+  "ExecutionId": "df050db8-2c1c-4f20-9b7c-083dcb0f0b6a",
+  "Main": "55LC/JwVKuims48mVe4B3GMSUajw2G9rMjJvA0T4N/E="
+}
+2020-10-26 04:23:01.3725|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|QueryCacheOperationVisitor|Visiting activity. Activity: 55LC/JwVKuims48mVe4B3GMSUajw2G9rMjJvA0T4N/E=|
+2020-10-26 04:23:01.3920|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "1610685e-bd57-4672-854a-d9ad404c5792",
+  "ContextTag": "0",
+  "ParentContextTag": ""
+}
+2020-10-26 04:23:03.1667|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "1610685e-bd57-4672-854a-d9ad404c5792",
+  "ContextTag": "0",
+  "ParentContextTag": ""
+}
+2020-10-26 04:23:03.1667|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "ff48e24e-0acd-401b-89cc-ab6b4cece2d6",
+  "ContextTag": "1",
+  "ParentContextTag": "0"
+}
+2020-10-26 04:23:03.1937|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "ff48e24e-0acd-401b-89cc-ab6b4cece2d6",
+  "ContextTag": "1",
+  "ParentContextTag": "0"
+}
+2020-10-26 04:23:03.1937|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|QueryCache|Build RDD|{
+  "Operation": "SplitColumnOperation",
+  "Reference": "",
+  "Tag": "ff48e24e-0acd-401b-89cc-ab6b4cece2d6",
+  "ContextTag": "2",
+  "ParentContextTag": "1"
+}
+2020-10-26 04:23:03.1995|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|QueryCache|Cache added|{
+  "Operation": "SplitColumnOperation",
+  "Reference": "",
+  "Tag": "ff48e24e-0acd-401b-89cc-ab6b4cece2d6",
+  "ContextTag": "2",
+  "ParentContextTag": "1"
+}
+2020-10-26 04:23:03.2003|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|QueryCache|Build RDD|{
+  "Operation": "PromoteHeadersOperation",
+  "Reference": "",
+  "Tag": "ff48e24e-0acd-401b-89cc-ab6b4cece2d6",
+  "ContextTag": "3",
+  "ParentContextTag": "2"
+}
+2020-10-26 04:23:03.2063|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|QueryCache|Cache added|{
+  "Operation": "PromoteHeadersOperation",
+  "Reference": "",
+  "Tag": "ff48e24e-0acd-401b-89cc-ab6b4cece2d6",
+  "ContextTag": "3",
+  "ParentContextTag": "2"
+}
+2020-10-26 04:23:03.2063|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|QueryCache|Build RDD|{
+  "Operation": "RemoveColumnsOperation",
+  "Reference": "",
+  "Tag": "f185c840-527e-4bfa-8720-3d02fde09f86",
+  "ContextTag": "4",
+  "ParentContextTag": "3"
+}
+2020-10-26 04:23:03.3048|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"OOCGfZi3nq/6E/kkf2Mv9MhOnwUVpNJRD6ewXvf7LWI="}|
+2020-10-26 04:23:03.5745|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|QueryCache|Cache added|{
+  "Operation": "RemoveColumnsOperation",
+  "Reference": "",
+  "Tag": "f185c840-527e-4bfa-8720-3d02fde09f86",
+  "ContextTag": "4",
+  "ParentContextTag": "3"
+}
+2020-10-26 04:23:03.5745|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|QueryCache|Build RDD|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "ff48e24e-0acd-401b-89cc-ab6b4cece2d6",
+  "ContextTag": "5",
+  "ParentContextTag": "4"
+}
+2020-10-26 04:23:03.5764|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|QueryCache|Cache added|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "ff48e24e-0acd-401b-89cc-ab6b4cece2d6",
+  "ContextTag": "5",
+  "ParentContextTag": "4"
+}
+2020-10-26 04:23:03.5764|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|QueryCache|Build RDD|{
+  "Operation": "SkipOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "6",
+  "ParentContextTag": "5"
+}
+2020-10-26 04:23:03.7636|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"OOCGfZi3nq/6E/kkf2Mv9MhOnwUVpNJRD6ewXvf7LWI="}|
+2020-10-26 04:23:04.1059|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"OOCGfZi3nq/6E/kkf2Mv9MhOnwUVpNJRD6ewXvf7LWI="}|
+2020-10-26 04:23:04.3639|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|QueryCache|Cache added|{
+  "Operation": "SkipOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "6",
+  "ParentContextTag": "5"
+}
+2020-10-26 04:23:04.3639|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|QueryCache|Build RDD|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "7",
+  "ParentContextTag": "6"
+}
+2020-10-26 04:23:04.3639|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|QueryCache|Cache added|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "7",
+  "ParentContextTag": "6"
+}
+2020-10-26 04:23:04.5090|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"OOCGfZi3nq/6E/kkf2Mv9MhOnwUVpNJRD6ewXvf7LWI="}|
+2020-10-26 04:23:04.7527|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "df050db8-2c1c-4f20-9b7c-083dcb0f0b6a",
+  "Main": "55LC/JwVKuims48mVe4B3GMSUajw2G9rMjJvA0T4N/E="
+}
+2020-10-26 04:23:04.8447|DEBUG|Caching|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-10-26 04:23:05.4767|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2020-10-26 04:23:05.4767|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ParseDelimitedBlock","id":"1"}|
+2020-10-26 04:23:05.4767|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.DropColumnsBlock","id":"2"}|
+2020-10-26 04:23:05.4767|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SetColumnTypesBlock","id":"3"}|
+2020-10-26 04:23:05.4767|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SetRsLexContextBlock","id":"4"}|
+2020-10-26 04:23:05.4767|DEBUG|Caching|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-10-26 04:23:05.4767|DEBUG|Caching|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-10-26 04:23:05.4767|DEBUG|Caching|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-10-26 04:23:05.4767|INFO|CLexExecutor|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "77d23d77-2f8e-419b-b056-5dcc7b0a74f3"
+}
+2020-10-26 04:23:05.4802|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|MapReduceExecutor|Execution started|{
+  "ExecutionId": "feffaaca-fe82-45d8-90af-ffc3804be9d3",
+  "Main": "dQXMUgjwDZrFx6JhCrl9FqnNCOnEbsuqOkiffJ8hvBM="
+}
+2020-10-26 04:23:05.8165|DEBUG|CLex|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "feffaaca-fe82-45d8-90af-ffc3804be9d3",
+  "Main": "dQXMUgjwDZrFx6JhCrl9FqnNCOnEbsuqOkiffJ8hvBM="
+}
+2020-10-26 04:23:05.8165|DEBUG|Caching|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}

@@ -1,0 +1,14 @@
+2020-10-26 04:23:00.0937|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2020-10-26 04:23:00.0937|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ParseDelimitedBlock","id":"1"}|
+2020-10-26 04:23:00.0937|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.DropColumnsBlock","id":"2"}|
+2020-10-26 04:23:00.0937|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.TakeBlock","id":"3"}|
+2020-10-26 04:23:00.0937|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"4"}|
+2020-10-26 04:23:03.3048|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"OOCGfZi3nq/6E/kkf2Mv9MhOnwUVpNJRD6ewXvf7LWI="}|
+2020-10-26 04:23:03.7636|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"OOCGfZi3nq/6E/kkf2Mv9MhOnwUVpNJRD6ewXvf7LWI="}|
+2020-10-26 04:23:04.1059|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"OOCGfZi3nq/6E/kkf2Mv9MhOnwUVpNJRD6ewXvf7LWI="}|
+2020-10-26 04:23:04.5090|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"OOCGfZi3nq/6E/kkf2Mv9MhOnwUVpNJRD6ewXvf7LWI="}|
+2020-10-26 04:23:05.4767|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2020-10-26 04:23:05.4767|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ParseDelimitedBlock","id":"1"}|
+2020-10-26 04:23:05.4767|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.DropColumnsBlock","id":"2"}|
+2020-10-26 04:23:05.4767|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SetColumnTypesBlock","id":"3"}|
+2020-10-26 04:23:05.4767|DEBUG|Telemetry|l_8285ffbe-b792-481d-8a3c-ce2bd2ec9c9d|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SetRsLexContextBlock","id":"4"}|
