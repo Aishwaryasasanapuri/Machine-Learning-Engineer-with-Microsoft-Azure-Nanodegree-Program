@@ -67,7 +67,8 @@ Post that we need to use the Azure AutoML Feature to find the best model and bes
 
 
 ## Future work
-**What are some areas of improvement for future experiments? Why might these improvements help the model?**
+
+We can notice that the dataset has Class Imbalance, we need to treat this by applying few balancing techniques like SMOTE,ADASYN and try to find our finding
 
 ## Proof of cluster clean up
 **If you did not delete your compute cluster in the code, please complete this section. Otherwise, delete this section.**
