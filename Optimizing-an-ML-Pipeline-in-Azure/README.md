@@ -14,11 +14,21 @@ Files Used to perform the Analysis are
 
 - Train.py
 - Project.ipynb
+
+
 We need to build a Machine learning model using skikit learn and tune the hyper parameters to find the best model using azure ML python SDK and Hyper Drive.
 Post that we need to use the Azure AutoML Feature to find the best model and best Hyperparameters.
 
 ## Scikit-learn Pipeline
-**Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
+**The pipeline architecture**
+
+1 Initially we retrieve the dataset from the url provided using Azure TabularDatasetfactory class.
+2 Then we preprocess the dataset using the clean_data function in which some preprocessing steps were performed like converting categorical variable to binary encoding, one hot encoding,etc
+3 Then the dataset is split in ratio of 70:30 (train/test) for training and testing and sklearn's LogisticRegression Class is used to define Logistic Regression model.
+4 We then use inverse regularization(C) and maximum iterations(max_iter) hyperparamters which are tuned using Azure ML Hyper Drive to find the best combination for maximizing the accuracy.
+5 The classification algorithm used here is **Logistic Regression** with accuracy as the primary metric for classification which is completely defined in the train.py file
+6 
+7 Finally ,the best run of the hyperdrive is noted and the best model in the best run is saved.
 
 **What are the benefits of the parameter sampler you chose?**
 
