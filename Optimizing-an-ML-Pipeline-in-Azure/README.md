@@ -6,11 +6,11 @@ In this project, we build and optimize an Azure ML pipeline using the Python SDK
 This model is then compared to an Azure AutoML run.
 
 ## Summary
-**In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."** :- This Project aims at making a binary prediction to find whether customers will join a Bank or Not.This dataset is related to direct marketing campaigns of a Portuguese banking sector. The campaigns were based on phone calls.
+ This Project aims at making a binary prediction to find whether customers will join a Bank or Not.This dataset is related to direct marketing campaigns of a Portuguese banking sector. The campaigns were based on phone calls.
 
-**In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."** :- The best performing model was a Voting Ensemble of **Xgboost classifier** using standard scaler wrapper. This was found using Automl feature of Azure
+The best performing model was a Voting Ensemble of **Xgboost classifier** using standard scaler wrapper. This was found using Automl feature of Azure.
 
-Files Used to perform the Analysis are 
+### Files Used to perform the Analysis are 
 
 - Train.py
 - Project.ipynb
@@ -22,13 +22,12 @@ Post that we need to use the Azure AutoML Feature to find the best model and bes
 ## Scikit-learn Pipeline
 **The pipeline architecture**
 
-1 Initially we retrieve the dataset from the url provided using Azure TabularDatasetfactory class.
-2 Then we preprocess the dataset using the clean_data function in which some preprocessing steps were performed like converting categorical variable to binary encoding, one hot encoding,etc
-3 Then the dataset is split in ratio of 70:30 (train/test) for training and testing and sklearn's LogisticRegression Class is used to define Logistic Regression model.
-4 We then use inverse regularization(C) and maximum iterations(max_iter) hyperparamters which are tuned using Azure ML Hyper Drive to find the best combination for maximizing the accuracy.
-5 The classification algorithm used here is **Logistic Regression** with accuracy as the primary metric for classification which is completely defined in the train.py file
-6 
-7 Finally ,the best run of the hyperdrive is noted and the best model in the best run is saved.
+- Initially we retrieve the dataset from the url provided using Azure TabularDatasetfactory class.
+- Then we preprocess the dataset using the clean_data function in which some preprocessing steps were performed like converting categorical variable to binary encoding, one hot encoding,etc
+- Then the dataset is split in ratio of 70:30 (train/test) for training and testing and sklearn's LogisticRegression Class is used to define Logistic Regression model.
+- We then use inverse regularization(C) and maximum iterations(max_iter) hyperparamters which are tuned using Azure ML Hyper Drive to find the best combination for maximizing the accuracy.
+- The classification algorithm used here is **Logistic Regression** with accuracy as the primary metric for classification which is completely defined in the train.py file
+- Finally ,the best run of the hyperdrive is noted and the best model in the best run is saved.
 
 **What are the benefits of the parameter sampler you chose?**
 
