@@ -25,7 +25,11 @@ Post that we need to use the Azure AutoML Feature to find the best model and bes
 - Using the Python SDK and a Scikit-learn model (Logistic Regression), it is developed an Azure ML pipeline;
 - An AutoML run inside Azure ML Studio is then created to perform a series of experiments.
 
-The Architectural diagrame of the workflow followed is as given below :-
+![Project Architecture](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Project%20Workflow.JPG)
+
+The Architectural diagram of the Project is as given below :-
+
+![Project Architecture](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Project%20Architecture.JPG)
 
 
 ## Scikit-learn Pipeline
@@ -49,7 +53,7 @@ The Architectural diagrame of the workflow followed is as given below :-
 
 - No of iterations(max_iter):The number of times we want the learning to happen. This helps is solving high complex problems with large training hours.
 
--- 
+- 
 
 **The benefits of the early stopping policy** 
  
@@ -97,7 +101,7 @@ Best Features
 ### Findings from the AutoML project
 
 - There are a lot of algorithms that has been tried and used by the automl run but the algorithms which got the highest accuracy was the VotingEnsemble, which is equal to approx. 91.72 percent. 
-- There are different metrics that were ranging from 72 percent to 91 percent in which the lowest accuracy was from the algorithm called SparseNormalizer ExtremeRandomTrees.
+- There are different metrics that were ranging from 72 percent to 91 percent in which the lowest accuracy was from the algorithm called MinMaxScaler ExtremeRandomTrees. 
 - We can also see that from the VotingEnsemble Model we have categorised the best Parameters that help the Bank retain it's clients/customers.
 
 ## Pipeline comparison
