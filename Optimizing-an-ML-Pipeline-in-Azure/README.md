@@ -3,7 +3,7 @@
 ## Overview
 This project is part of the Udacity Azure ML Nanodegree.
 In this project, we build and optimize an Azure ML pipeline using the Python SDK and a provided Scikit-learn model.
-This model is then compared to an Azure AutoML run.
+This model is then compared to an Azure AutoML run. The projects is performed on the [Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing) and the Azure ML Studio.
 
 ## Summary
  This Project aims at making a binary prediction to find whether customers will join a Bank or Not.This dataset is related to direct marketing campaigns of a Portuguese banking sector. The campaigns were based on phone calls.
@@ -16,7 +16,14 @@ The best performing model was a **Voting Ensemble** of ***Xgboost classifier*** 
 - Project.ipynb
 
 We need to build a Machine learning model using skikit learn and tune the hyper parameters to find the best model using azure ML python SDK and Hyper Drive.
-Post that we need to use the Azure AutoML Feature to find the best model and best Hyperparameters.
+Post that we need to use the Azure AutoML Feature to find the best model and best Hyperparameters.At the end of this project, we want to create a solid understanding about the Azure ML Studio and some important standard practices of MLops inside Azure platform.
+
+#### Steps followed for completion of Project
+
+- Input the dataset into Registered Datasets;
+- Create a compute instance;
+- Using the Python SDK and a Scikit-learn model (Logistic Regression), it is developed an Azure ML pipeline;
+- An AutoML run inside Azure ML Studio is then created to perform a series of experiments.
 
 ## Scikit-learn Pipeline
 **The pipeline architecture**
