@@ -98,6 +98,7 @@ Best Features
 
 - There are a lot of algorithms that has been tried and used by the automl run but the algorithms which got the highest accuracy was the VotingEnsemble, which is equal to approx. 91.72 percent. 
 - There are different metrics that were ranging from 72 percent to 91 percent in which the lowest accuracy was from the algorithm called SparseNormalizer ExtremeRandomTrees.
+- We can also see that from the VotingEnsemble Model we have categorised the best Parameters that help the Bank retain it's clients/customers.
 
 ## Pipeline comparison
 **Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
