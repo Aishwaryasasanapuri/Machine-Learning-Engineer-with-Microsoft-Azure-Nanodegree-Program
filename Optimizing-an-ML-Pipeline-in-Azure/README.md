@@ -25,6 +25,9 @@ Post that we need to use the Azure AutoML Feature to find the best model and bes
 - Using the Python SDK and a Scikit-learn model (Logistic Regression), it is developed an Azure ML pipeline;
 - An AutoML run inside Azure ML Studio is then created to perform a series of experiments.
 
+The Architectural diagrame of the workflow followed is as given below :-
+
+
 ## Scikit-learn Pipeline
 **The pipeline architecture**
 
@@ -65,11 +68,13 @@ Post that we need to use the Azure AutoML Feature to find the best model and bes
 ## AutoML
 **AutoML means Automated Machine Learning**
 
-1. AutmoML means that we can Automating the process, it reduces the time consumed by the training (Traditional) process. It also helps in performing iterative tasks of ML models.
-2. With the help of AutoML we can accelerate the time taken for deployment of models into production with gread efficency.
-3. The models used here were RandomForests,BoostedTrees,XGBoost,LightGBM,SGDClassifier,VotingEnsemble,SGD Classifier
+1. AutmoML means that we can Automating the process, it reduces the time consumed by the training (Traditional) process. It also helps in performing iterative tasks of ML models. It is known for its incredible flexibility
+2. With the help of AutoML we can accelerate the time taken for deployment of models into production with great efficency.
+3. The models used here were RandomForests,Boosted Trees,XGBoost,LightGBM,SGD Classifier,Voting Ensemble.
 4. It also used different pre- processing techniques like Standard Scaling, Min Max Scaling, Sparse Normalizer, MaxAbsScaler. It also has efficiently balanced the class Imabalance in the data.
 5. It also has the feature of crossvalidation where number of cross_validation split is specified using which it performs validation on the dataset.
+
+In this project, we set the AutoML configuration with accuracy as primary metric and cross validation. The cross validation is important to avoid overfitting and helps generalize the model better. For computational reasons, in this experiment, the experiment timeout was set to 30 Minutes which have limited the number of Models that could be built.
 
 ![Automl models](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Automl%20outputs/Automl_models.JPG)
 
@@ -90,9 +95,12 @@ Best Features
 ## Pipeline comparison
 **Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
 
-- Overall,the difference in accuracy between the AutoML model and the Hyperdrive tuned custom model is not very much. AutoML accuracy was 0.91763 while the Hyperdrive accuracy was 0.91006
+- Overall,the difference in accuracy between the AutoML model and the Hyperdrive tuned custom model is very small. AutoML accuracy was 0.91763 while the Hyperdrive accuracy was 0.91006
 
 - With Respect to architecture AutoML was better than hyperdrive because it tried a lot of different models, which is quite impossible to do with Hyperdrive, as that would require us to create a new pipeline for each model.
+
+- The architecture of both pipelines are different, but the ideas are close: Load the data, instanciate the infrastructure to compute, set the parameters and call the compute method. The main difference is the that using AutoML we have infitine possibilities to increase the search for a better algorithm or a hyperparameter combination.
+
 
 ## Future work
 
