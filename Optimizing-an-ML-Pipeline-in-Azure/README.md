@@ -71,13 +71,6 @@ Post that we need to use the Azure AutoML Feature to find the best model and bes
 4. It also used different pre- processing techniques like Standard Scaling, Min Max Scaling, Sparse Normalizer, MaxAbsScaler. It also has efficiently balanced the class Imabalance in the data.
 5. It also has the feature of crossvalidation where number of cross_validation split is specified using which it performs validation on the dataset.
 
-## Pipeline comparison
-**Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
-
-- Overall,the difference in accuracy between the AutoML model and the Hyperdrive tuned custom model is not very much. AutoML accuracy was 0.91763 while the Hyperdrive accuracy was 0.91006
-
-- With Respect to architecture AutoML was better than hyperdrive because it tried a lot of different models, which is quite impossible to do with Hyperdrive, as that would require us to create a new pipeline for each model.
-
 ![Automl models](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Automl%20outputs/Automl_models.JPG)
 
 Best Auto ML model
@@ -94,9 +87,21 @@ Best Features
 
 ![Best Features](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Automl%20outputs/Automl_features_boxplot.JPG)
 
+## Pipeline comparison
+**Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
+
+- Overall,the difference in accuracy between the AutoML model and the Hyperdrive tuned custom model is not very much. AutoML accuracy was 0.91763 while the Hyperdrive accuracy was 0.91006
+
+- With Respect to architecture AutoML was better than hyperdrive because it tried a lot of different models, which is quite impossible to do with Hyperdrive, as that would require us to create a new pipeline for each model.
+
 ## Future work
 
-We can notice that the dataset has Class Imbalance, we need to treat this by applying few balancing techniques like SMOTE,ADASYN and try to find our finding
+We can notice that the dataset has Class Imbalance, we need to treat this by applying few balancing techniques like SMOTE,ADASYN and try to find further on this.
+For improvements and future experiments it is important to explore other algorithms and validate more metrics. 
+Accuracy in this case is very important, but using a **confusion matrix** can be important.We can also used balanced_accuracy which is a primary metric that calculates for the arithmetic mean of recall for each class. Another example is AUC_weighted, which gets the arithmetic mean of the score for each class , weighted by the true number of true instances in each class.
+We can modify the experiments with other hyperparameters and increase the cross validation to enhance models performance and generalization.
+
+Also, in this project, the experiment_timeout_minutes has been capped to only 30 minutes so there could only be a limited number of models that can be runned on that time period, so a longer timeout could have greater number of models to run and thus improving the performance.
 
 ## Proof of cluster clean up
 **If you did not delete your compute cluster in the code, please complete this section. Otherwise, delete this section.**
