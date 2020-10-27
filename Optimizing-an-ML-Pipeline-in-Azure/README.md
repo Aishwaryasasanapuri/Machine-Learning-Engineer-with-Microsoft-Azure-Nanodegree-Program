@@ -40,14 +40,16 @@ The Architectural diagrame of the workflow followed is as given below :-
 
 **The benefits of the parameter sampler**
 
-- Here I have used Random Parameter Sampling in the parameter sampler so that it can be used to provide random sampling over a hyperparameter search space.
+- Here, I have used Random Parameter Sampling in the parameter sampler so that it can be used to provide random sampling over a hyperparameter search space.
 - It also has the advantage of performing equally as Grid Search with lesser compute power requirements.
 
 ### Hyperparameters
 
 - Inverse regularization parameter(C)- A control variable that retains strength modification of Regularization by being inversely positioned to the Lambda regulator. The relationship, would be that lowering C - would strengthen the Lambda regulator.
 
-- No of iterations(max_iter):The number of times we want the learning to happen. This helps is solving high complex problems with large training hours
+- No of iterations(max_iter):The number of times we want the learning to happen. This helps is solving high complex problems with large training hours.
+
+-- 
 
 **The benefits of the early stopping policy** 
  
@@ -91,6 +93,11 @@ Best Features
 ![Best Features](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Automl%20outputs/Automl_features.JPG)
 
 ![Best Features](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Optimizing-an-ML-Pipeline-in-Azure/Automl%20outputs/Automl_features_boxplot.JPG)
+
+### Findings from the AutoML project
+
+- There are a lot of algorithms that has been tried and used by the automl run but the algorithms which got the highest accuracy was the VotingEnsemble, which is equal to approx. 91.72 percent. 
+- There are different metrics that were ranging from 72 percent to 91 percent in which the lowest accuracy was from the algorithm called SparseNormalizer ExtremeRandomTrees.
 
 ## Pipeline comparison
 **Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
