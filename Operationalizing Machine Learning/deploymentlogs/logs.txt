@@ -1,0 +1,390 @@
+2021-01-04T07:16:42,826326100+00:00 - gunicorn/run 
+2021-01-04T07:16:42,824448000+00:00 - iot-server/run 
+2021-01-04T07:16:42,841967500+00:00 - rsyslog/run 
+2021-01-04T07:16:42,845342600+00:00 - nginx/run 
+/usr/sbin/nginx: /azureml-envs/azureml_8eff28b157f42edcd2424a5aae6c8074/lib/libcrypto.so.1.0.0: no version information available (required by /usr/sbin/nginx)
+/usr/sbin/nginx: /azureml-envs/azureml_8eff28b157f42edcd2424a5aae6c8074/lib/libcrypto.so.1.0.0: no version information available (required by /usr/sbin/nginx)
+/usr/sbin/nginx: /azureml-envs/azureml_8eff28b157f42edcd2424a5aae6c8074/lib/libssl.so.1.0.0: no version information available (required by /usr/sbin/nginx)
+/usr/sbin/nginx: /azureml-envs/azureml_8eff28b157f42edcd2424a5aae6c8074/lib/libssl.so.1.0.0: no version information available (required by /usr/sbin/nginx)
+/usr/sbin/nginx: /azureml-envs/azureml_8eff28b157f42edcd2424a5aae6c8074/lib/libssl.so.1.0.0: no version information available (required by /usr/sbin/nginx)
+rsyslogd: /azureml-envs/azureml_8eff28b157f42edcd2424a5aae6c8074/lib/libuuid.so.1: no version information available (required by rsyslogd)
+EdgeHubConnectionString and IOTEDGE_IOTHUBHOSTNAME are not set. Exiting...
+2021-01-04T07:16:44,250253300+00:00 - iot-server/finish 1 0
+2021-01-04T07:16:44,252739300+00:00 - Exit code 1 is normal. Not restarting iot-server.
+Starting gunicorn 19.9.0
+Listening at: http://127.0.0.1:31311 (59)
+Using worker: sync
+worker timeout is set to 300
+Booting worker with pid: 96
+SPARK_HOME not set. Skipping PySpark Initialization.
+Generating new fontManager, this may take some time...
+Initializing logger
+2021-01-04 07:16:48,762 | root | INFO | Starting up app insights client
+Starting up app insights client
+2021-01-04 07:16:48,763 | root | INFO | Starting up request id generator
+Starting up request id generator
+2021-01-04 07:16:48,763 | root | INFO | Starting up app insight hooks
+Starting up app insight hooks
+2021-01-04 07:16:48,763 | root | INFO | Invoking user's init function
+Invoking user's init function
+2021-01-04 07:16:55,436 | root | INFO | Users's init has completed successfully
+Users's init has completed successfully
+2021-01-04 07:16:55,457 | root | INFO | Skipping middleware: dbg_model_info as it's not enabled.
+Skipping middleware: dbg_model_info as it's not enabled.
+2021-01-04 07:16:55,458 | root | INFO | Skipping middleware: dbg_resource_usage as it's not enabled.
+Skipping middleware: dbg_resource_usage as it's not enabled.
+2021-01-04 07:16:55,461 | root | INFO | Scoring timeout is found from os.environ: 60000 ms
+Scoring timeout is found from os.environ: 60000 ms
+2021-01-04 07:17:26,526 | root | INFO | 200
+200
+127.0.0.1 - - [04/Jan/2021:07:17:26 +0000] "GET /swagger.json HTTP/1.0" 200 3242 "-" "Go-http-client/1.1"
+2021-01-04 07:20:30,961 | root | INFO | 200
+200
+127.0.0.1 - - [04/Jan/2021:07:20:30 +0000] "GET /swagger.json HTTP/1.0" 200 3242 "-" "Go-http-client/1.1"
+2021-01-04 07:20:31,444 | root | INFO | 200
+200
+127.0.0.1 - - [04/Jan/2021:07:20:31 +0000] "GET /swagger.json HTTP/1.0" 200 3242 "-" "Go-http-client/1.1"
+2021-01-04 07:21:15,028 | root | INFO | 200
+200
+127.0.0.1 - - [04/Jan/2021:07:21:15 +0000] "GET /swagger.json HTTP/1.0" 200 3242 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+2021-01-04 07:38:20,799 | root | INFO | Validation Request Content-Type
+Validation Request Content-Type
+2021-01-04 07:38:20,800 | root | INFO | 	Host: localhost:5001
+	Host: localhost:5001
+2021-01-04 07:38:20,800 | root | INFO | 	X-Real-Ip: 127.0.0.1
+	X-Real-Ip: 127.0.0.1
+2021-01-04 07:38:20,801 | root | INFO | 	X-Forwarded-For: 127.0.0.1
+	X-Forwarded-For: 127.0.0.1
+2021-01-04 07:38:20,801 | root | INFO | 	X-Forwarded-Proto: http
+	X-Forwarded-Proto: http
+2021-01-04 07:38:20,801 | root | INFO | 	Connection: close
+	Connection: close
+2021-01-04 07:38:20,801 | root | INFO | 	Content-Length: 812
+	Content-Length: 812
+2021-01-04 07:38:20,801 | root | INFO | 	User-Agent: python-requests/2.24.0
+	User-Agent: python-requests/2.24.0
+2021-01-04 07:38:20,801 | root | INFO | 	Accept: */*
+	Accept: */*
+2021-01-04 07:38:20,802 | root | INFO | 	Accept-Encoding: gzip, deflate
+	Accept-Encoding: gzip, deflate
+2021-01-04 07:38:20,802 | root | INFO | 	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+2021-01-04 07:38:20,802 | root | INFO | 	Content-Type: application/json
+	Content-Type: application/json
+2021-01-04 07:38:20,802 | root | INFO | 	X-Ms-Request-Id: a5211509-80cb-4777-a725-78cabe4591c9
+	X-Ms-Request-Id: a5211509-80cb-4777-a725-78cabe4591c9
+2021-01-04 07:38:20,802 | root | INFO | Scoring Timer is set to 60.0 seconds
+Scoring Timer is set to 60.0 seconds
+2021-01-04 07:38:20,894 | root | INFO | 200
+200
+127.0.0.1 - - [04/Jan/2021:07:38:20 +0000] "POST /score HTTP/1.0" 200 33 "-" "python-requests/2.24.0"
+2021-01-04 07:43:48,905 | root | INFO | Validation Request Content-Type
+Validation Request Content-Type
+2021-01-04 07:43:48,906 | root | INFO | 	Host: localhost:5001
+	Host: localhost:5001
+2021-01-04 07:43:48,906 | root | INFO | 	X-Real-Ip: 127.0.0.1
+	X-Real-Ip: 127.0.0.1
+2021-01-04 07:43:48,906 | root | INFO | 	X-Forwarded-For: 127.0.0.1
+	X-Forwarded-For: 127.0.0.1
+2021-01-04 07:43:48,906 | root | INFO | 	X-Forwarded-Proto: http
+	X-Forwarded-Proto: http
+2021-01-04 07:43:48,907 | root | INFO | 	Connection: close
+	Connection: close
+2021-01-04 07:43:48,907 | root | INFO | 	Content-Length: 812
+	Content-Length: 812
+2021-01-04 07:43:48,907 | root | INFO | 	User-Agent: ApacheBench/2.3
+	User-Agent: ApacheBench/2.3
+2021-01-04 07:43:48,907 | root | INFO | 	Accept: */*
+	Accept: */*
+2021-01-04 07:43:48,907 | root | INFO | 	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+2021-01-04 07:43:48,908 | root | INFO | 	Content-Type: application/json
+	Content-Type: application/json
+2021-01-04 07:43:48,908 | root | INFO | 	X-Ms-Request-Id: c1635eb5-56ee-490e-a1ce-ee70e41354bc
+	X-Ms-Request-Id: c1635eb5-56ee-490e-a1ce-ee70e41354bc
+2021-01-04 07:43:48,908 | root | INFO | 	Accept-Encoding: gzip
+	Accept-Encoding: gzip
+2021-01-04 07:43:48,908 | root | INFO | Scoring Timer is set to 60.0 seconds
+Scoring Timer is set to 60.0 seconds
+2021-01-04 07:43:48,995 | root | INFO | 200
+200
+127.0.0.1 - - [04/Jan/2021:07:43:48 +0000] "POST /score HTTP/1.0" 200 33 "-" "ApacheBench/2.3"
+2021-01-04 07:43:49,012 | root | INFO | Validation Request Content-Type
+Validation Request Content-Type
+2021-01-04 07:43:49,012 | root | INFO | 	Host: localhost:5001
+	Host: localhost:5001
+2021-01-04 07:43:49,013 | root | INFO | 	X-Real-Ip: 127.0.0.1
+	X-Real-Ip: 127.0.0.1
+2021-01-04 07:43:49,013 | root | INFO | 	X-Forwarded-For: 127.0.0.1
+	X-Forwarded-For: 127.0.0.1
+2021-01-04 07:43:49,013 | root | INFO | 	X-Forwarded-Proto: http
+	X-Forwarded-Proto: http
+2021-01-04 07:43:49,013 | root | INFO | 	Connection: close
+	Connection: close
+2021-01-04 07:43:49,014 | root | INFO | 	Content-Length: 812
+	Content-Length: 812
+2021-01-04 07:43:49,014 | root | INFO | 	User-Agent: ApacheBench/2.3
+	User-Agent: ApacheBench/2.3
+2021-01-04 07:43:49,014 | root | INFO | 	Accept: */*
+	Accept: */*
+2021-01-04 07:43:49,014 | root | INFO | 	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+2021-01-04 07:43:49,014 | root | INFO | 	Content-Type: application/json
+	Content-Type: application/json
+2021-01-04 07:43:49,014 | root | INFO | 	X-Ms-Request-Id: 6ec30709-70d3-4ddc-b7cd-824f3401c28d
+	X-Ms-Request-Id: 6ec30709-70d3-4ddc-b7cd-824f3401c28d
+2021-01-04 07:43:49,014 | root | INFO | 	Accept-Encoding: gzip
+	Accept-Encoding: gzip
+2021-01-04 07:43:49,015 | root | INFO | Scoring Timer is set to 60.0 seconds
+Scoring Timer is set to 60.0 seconds
+2021-01-04 07:43:49,111 | root | INFO | 200
+200
+127.0.0.1 - - [04/Jan/2021:07:43:49 +0000] "POST /score HTTP/1.0" 200 33 "-" "ApacheBench/2.3"
+2021-01-04 07:43:49,123 | root | INFO | Validation Request Content-Type
+Validation Request Content-Type
+2021-01-04 07:43:49,124 | root | INFO | 	Host: localhost:5001
+	Host: localhost:5001
+2021-01-04 07:43:49,124 | root | INFO | 	X-Real-Ip: 127.0.0.1
+	X-Real-Ip: 127.0.0.1
+2021-01-04 07:43:49,124 | root | INFO | 	X-Forwarded-For: 127.0.0.1
+	X-Forwarded-For: 127.0.0.1
+2021-01-04 07:43:49,124 | root | INFO | 	X-Forwarded-Proto: http
+	X-Forwarded-Proto: http
+2021-01-04 07:43:49,124 | root | INFO | 	Connection: close
+	Connection: close
+2021-01-04 07:43:49,125 | root | INFO | 	Content-Length: 812
+	Content-Length: 812
+2021-01-04 07:43:49,126 | root | INFO | 	User-Agent: ApacheBench/2.3
+	User-Agent: ApacheBench/2.3
+2021-01-04 07:43:49,126 | root | INFO | 	Accept: */*
+	Accept: */*
+2021-01-04 07:43:49,126 | root | INFO | 	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+2021-01-04 07:43:49,126 | root | INFO | 	Content-Type: application/json
+	Content-Type: application/json
+2021-01-04 07:43:49,126 | root | INFO | 	X-Ms-Request-Id: ee817d42-d71f-447b-8ed1-f0c999e9a30e
+	X-Ms-Request-Id: ee817d42-d71f-447b-8ed1-f0c999e9a30e
+2021-01-04 07:43:49,126 | root | INFO | 	Accept-Encoding: gzip
+	Accept-Encoding: gzip
+2021-01-04 07:43:49,127 | root | INFO | Scoring Timer is set to 60.0 seconds
+Scoring Timer is set to 60.0 seconds
+2021-01-04 07:43:49,234 | root | INFO | 200
+200
+127.0.0.1 - - [04/Jan/2021:07:43:49 +0000] "POST /score HTTP/1.0" 200 33 "-" "ApacheBench/2.3"
+2021-01-04 07:43:49,245 | root | INFO | Validation Request Content-Type
+Validation Request Content-Type
+2021-01-04 07:43:49,245 | root | INFO | 	Host: localhost:5001
+	Host: localhost:5001
+2021-01-04 07:43:49,246 | root | INFO | 	X-Real-Ip: 127.0.0.1
+	X-Real-Ip: 127.0.0.1
+2021-01-04 07:43:49,246 | root | INFO | 	X-Forwarded-For: 127.0.0.1
+	X-Forwarded-For: 127.0.0.1
+2021-01-04 07:43:49,246 | root | INFO | 	X-Forwarded-Proto: http
+	X-Forwarded-Proto: http
+2021-01-04 07:43:49,247 | root | INFO | 	Connection: close
+	Connection: close
+2021-01-04 07:43:49,247 | root | INFO | 	Content-Length: 812
+	Content-Length: 812
+2021-01-04 07:43:49,247 | root | INFO | 	User-Agent: ApacheBench/2.3
+	User-Agent: ApacheBench/2.3
+2021-01-04 07:43:49,247 | root | INFO | 	Accept: */*
+	Accept: */*
+2021-01-04 07:43:49,247 | root | INFO | 	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+2021-01-04 07:43:49,247 | root | INFO | 	Content-Type: application/json
+	Content-Type: application/json
+2021-01-04 07:43:49,248 | root | INFO | 	X-Ms-Request-Id: c6ba88ab-ee71-4fc6-9549-1192f9502dff
+	X-Ms-Request-Id: c6ba88ab-ee71-4fc6-9549-1192f9502dff
+2021-01-04 07:43:49,248 | root | INFO | 	Accept-Encoding: gzip
+	Accept-Encoding: gzip
+2021-01-04 07:43:49,248 | root | INFO | Scoring Timer is set to 60.0 seconds
+Scoring Timer is set to 60.0 seconds
+2021-01-04 07:43:49,342 | root | INFO | 200
+200
+127.0.0.1 - - [04/Jan/2021:07:43:49 +0000] "POST /score HTTP/1.0" 200 33 "-" "ApacheBench/2.3"
+2021-01-04 07:43:49,355 | root | INFO | Validation Request Content-Type
+Validation Request Content-Type
+2021-01-04 07:43:49,356 | root | INFO | 	Host: localhost:5001
+	Host: localhost:5001
+2021-01-04 07:43:49,356 | root | INFO | 	X-Real-Ip: 127.0.0.1
+	X-Real-Ip: 127.0.0.1
+2021-01-04 07:43:49,357 | root | INFO | 	X-Forwarded-For: 127.0.0.1
+	X-Forwarded-For: 127.0.0.1
+2021-01-04 07:43:49,358 | root | INFO | 	X-Forwarded-Proto: http
+	X-Forwarded-Proto: http
+2021-01-04 07:43:49,358 | root | INFO | 	Connection: close
+	Connection: close
+2021-01-04 07:43:49,359 | root | INFO | 	Content-Length: 812
+	Content-Length: 812
+2021-01-04 07:43:49,360 | root | INFO | 	User-Agent: ApacheBench/2.3
+	User-Agent: ApacheBench/2.3
+2021-01-04 07:43:49,360 | root | INFO | 	Accept: */*
+	Accept: */*
+2021-01-04 07:43:49,361 | root | INFO | 	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+2021-01-04 07:43:49,361 | root | INFO | 	Content-Type: application/json
+	Content-Type: application/json
+2021-01-04 07:43:49,362 | root | INFO | 	X-Ms-Request-Id: 773f7347-fe46-42a9-a7f9-d9a02370fef9
+	X-Ms-Request-Id: 773f7347-fe46-42a9-a7f9-d9a02370fef9
+2021-01-04 07:43:49,363 | root | INFO | 	Accept-Encoding: gzip
+	Accept-Encoding: gzip
+2021-01-04 07:43:49,364 | root | INFO | Scoring Timer is set to 60.0 seconds
+Scoring Timer is set to 60.0 seconds
+2021-01-04 07:43:49,442 | root | INFO | 200
+200
+127.0.0.1 - - [04/Jan/2021:07:43:49 +0000] "POST /score HTTP/1.0" 200 33 "-" "ApacheBench/2.3"
+2021-01-04 07:43:49,453 | root | INFO | Validation Request Content-Type
+Validation Request Content-Type
+2021-01-04 07:43:49,454 | root | INFO | 	Host: localhost:5001
+	Host: localhost:5001
+2021-01-04 07:43:49,455 | root | INFO | 	X-Real-Ip: 127.0.0.1
+	X-Real-Ip: 127.0.0.1
+2021-01-04 07:43:49,456 | root | INFO | 	X-Forwarded-For: 127.0.0.1
+	X-Forwarded-For: 127.0.0.1
+2021-01-04 07:43:49,456 | root | INFO | 	X-Forwarded-Proto: http
+	X-Forwarded-Proto: http
+2021-01-04 07:43:49,457 | root | INFO | 	Connection: close
+	Connection: close
+2021-01-04 07:43:49,458 | root | INFO | 	Content-Length: 812
+	Content-Length: 812
+2021-01-04 07:43:49,458 | root | INFO | 	User-Agent: ApacheBench/2.3
+	User-Agent: ApacheBench/2.3
+2021-01-04 07:43:49,459 | root | INFO | 	Accept: */*
+	Accept: */*
+2021-01-04 07:43:49,460 | root | INFO | 	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+2021-01-04 07:43:49,460 | root | INFO | 	Content-Type: application/json
+	Content-Type: application/json
+2021-01-04 07:43:49,461 | root | INFO | 	X-Ms-Request-Id: 5964b4b6-badb-4379-96ae-8aece7997190
+	X-Ms-Request-Id: 5964b4b6-badb-4379-96ae-8aece7997190
+2021-01-04 07:43:49,461 | root | INFO | 	Accept-Encoding: gzip
+	Accept-Encoding: gzip
+2021-01-04 07:43:49,462 | root | INFO | Scoring Timer is set to 60.0 seconds
+Scoring Timer is set to 60.0 seconds
+2021-01-04 07:43:49,543 | root | INFO | 200
+200
+127.0.0.1 - - [04/Jan/2021:07:43:49 +0000] "POST /score HTTP/1.0" 200 33 "-" "ApacheBench/2.3"
+2021-01-04 07:43:49,553 | root | INFO | Validation Request Content-Type
+Validation Request Content-Type
+2021-01-04 07:43:49,554 | root | INFO | 	Host: localhost:5001
+	Host: localhost:5001
+2021-01-04 07:43:49,554 | root | INFO | 	X-Real-Ip: 127.0.0.1
+	X-Real-Ip: 127.0.0.1
+2021-01-04 07:43:49,555 | root | INFO | 	X-Forwarded-For: 127.0.0.1
+	X-Forwarded-For: 127.0.0.1
+2021-01-04 07:43:49,555 | root | INFO | 	X-Forwarded-Proto: http
+	X-Forwarded-Proto: http
+2021-01-04 07:43:49,556 | root | INFO | 	Connection: close
+	Connection: close
+2021-01-04 07:43:49,556 | root | INFO | 	Content-Length: 812
+	Content-Length: 812
+2021-01-04 07:43:49,557 | root | INFO | 	User-Agent: ApacheBench/2.3
+	User-Agent: ApacheBench/2.3
+2021-01-04 07:43:49,557 | root | INFO | 	Accept: */*
+	Accept: */*
+2021-01-04 07:43:49,558 | root | INFO | 	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+2021-01-04 07:43:49,558 | root | INFO | 	Content-Type: application/json
+	Content-Type: application/json
+2021-01-04 07:43:49,559 | root | INFO | 	X-Ms-Request-Id: a6880bd2-b772-4e58-b0e6-96075ac6a14d
+	X-Ms-Request-Id: a6880bd2-b772-4e58-b0e6-96075ac6a14d
+2021-01-04 07:43:49,559 | root | INFO | 	Accept-Encoding: gzip
+	Accept-Encoding: gzip
+2021-01-04 07:43:49,560 | root | INFO | Scoring Timer is set to 60.0 seconds
+Scoring Timer is set to 60.0 seconds
+2021-01-04 07:43:49,646 | root | INFO | 200
+200
+127.0.0.1 - - [04/Jan/2021:07:43:49 +0000] "POST /score HTTP/1.0" 200 33 "-" "ApacheBench/2.3"
+2021-01-04 07:43:49,656 | root | INFO | Validation Request Content-Type
+Validation Request Content-Type
+2021-01-04 07:43:49,657 | root | INFO | 	Host: localhost:5001
+	Host: localhost:5001
+2021-01-04 07:43:49,657 | root | INFO | 	X-Real-Ip: 127.0.0.1
+	X-Real-Ip: 127.0.0.1
+2021-01-04 07:43:49,658 | root | INFO | 	X-Forwarded-For: 127.0.0.1
+	X-Forwarded-For: 127.0.0.1
+2021-01-04 07:43:49,658 | root | INFO | 	X-Forwarded-Proto: http
+	X-Forwarded-Proto: http
+2021-01-04 07:43:49,659 | root | INFO | 	Connection: close
+	Connection: close
+2021-01-04 07:43:49,659 | root | INFO | 	Content-Length: 812
+	Content-Length: 812
+2021-01-04 07:43:49,659 | root | INFO | 	User-Agent: ApacheBench/2.3
+	User-Agent: ApacheBench/2.3
+2021-01-04 07:43:49,659 | root | INFO | 	Accept: */*
+	Accept: */*
+2021-01-04 07:43:49,660 | root | INFO | 	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+2021-01-04 07:43:49,660 | root | INFO | 	Content-Type: application/json
+	Content-Type: application/json
+2021-01-04 07:43:49,660 | root | INFO | 	X-Ms-Request-Id: 54c743fa-95b4-4069-a7a6-adc42bf19878
+	X-Ms-Request-Id: 54c743fa-95b4-4069-a7a6-adc42bf19878
+2021-01-04 07:43:49,660 | root | INFO | 	Accept-Encoding: gzip
+	Accept-Encoding: gzip
+2021-01-04 07:43:49,661 | root | INFO | Scoring Timer is set to 60.0 seconds
+Scoring Timer is set to 60.0 seconds
+2021-01-04 07:43:49,736 | root | INFO | 200
+200
+127.0.0.1 - - [04/Jan/2021:07:43:49 +0000] "POST /score HTTP/1.0" 200 33 "-" "ApacheBench/2.3"
+2021-01-04 07:43:49,745 | root | INFO | Validation Request Content-Type
+Validation Request Content-Type
+2021-01-04 07:43:49,746 | root | INFO | 	Host: localhost:5001
+	Host: localhost:5001
+2021-01-04 07:43:49,746 | root | INFO | 	X-Real-Ip: 127.0.0.1
+	X-Real-Ip: 127.0.0.1
+2021-01-04 07:43:49,747 | root | INFO | 	X-Forwarded-For: 127.0.0.1
+	X-Forwarded-For: 127.0.0.1
+2021-01-04 07:43:49,747 | root | INFO | 	X-Forwarded-Proto: http
+	X-Forwarded-Proto: http
+2021-01-04 07:43:49,747 | root | INFO | 	Connection: close
+	Connection: close
+2021-01-04 07:43:49,748 | root | INFO | 	Content-Length: 812
+	Content-Length: 812
+2021-01-04 07:43:49,748 | root | INFO | 	User-Agent: ApacheBench/2.3
+	User-Agent: ApacheBench/2.3
+2021-01-04 07:43:49,748 | root | INFO | 	Accept: */*
+	Accept: */*
+2021-01-04 07:43:49,748 | root | INFO | 	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+2021-01-04 07:43:49,748 | root | INFO | 	Content-Type: application/json
+	Content-Type: application/json
+2021-01-04 07:43:49,748 | root | INFO | 	X-Ms-Request-Id: ad33e493-f6ad-49f7-bd36-ff9a07b64364
+	X-Ms-Request-Id: ad33e493-f6ad-49f7-bd36-ff9a07b64364
+2021-01-04 07:43:49,748 | root | INFO | 	Accept-Encoding: gzip
+	Accept-Encoding: gzip
+2021-01-04 07:43:49,748 | root | INFO | Scoring Timer is set to 60.0 seconds
+Scoring Timer is set to 60.0 seconds
+2021-01-04 07:43:49,829 | root | INFO | 200
+200
+127.0.0.1 - - [04/Jan/2021:07:43:49 +0000] "POST /score HTTP/1.0" 200 33 "-" "ApacheBench/2.3"
+2021-01-04 07:43:49,840 | root | INFO | Validation Request Content-Type
+Validation Request Content-Type
+2021-01-04 07:43:49,841 | root | INFO | 	Host: localhost:5001
+	Host: localhost:5001
+2021-01-04 07:43:49,841 | root | INFO | 	X-Real-Ip: 127.0.0.1
+	X-Real-Ip: 127.0.0.1
+2021-01-04 07:43:49,841 | root | INFO | 	X-Forwarded-For: 127.0.0.1
+	X-Forwarded-For: 127.0.0.1
+2021-01-04 07:43:49,842 | root | INFO | 	X-Forwarded-Proto: http
+	X-Forwarded-Proto: http
+2021-01-04 07:43:49,842 | root | INFO | 	Connection: close
+	Connection: close
+2021-01-04 07:43:49,843 | root | INFO | 	Content-Length: 812
+	Content-Length: 812
+2021-01-04 07:43:49,843 | root | INFO | 	User-Agent: ApacheBench/2.3
+	User-Agent: ApacheBench/2.3
+2021-01-04 07:43:49,843 | root | INFO | 	Accept: */*
+	Accept: */*
+2021-01-04 07:43:49,844 | root | INFO | 	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+	Authorization: Bearer drKgznO0BejPfkyNUv4XHc8EDANHKYRf
+2021-01-04 07:43:49,844 | root | INFO | 	Content-Type: application/json
+	Content-Type: application/json
+2021-01-04 07:43:49,844 | root | INFO | 	X-Ms-Request-Id: a2594133-426e-4cc1-a5d4-3d73b695244b
+	X-Ms-Request-Id: a2594133-426e-4cc1-a5d4-3d73b695244b
+2021-01-04 07:43:49,845 | root | INFO | 	Accept-Encoding: gzip
+	Accept-Encoding: gzip
+2021-01-04 07:43:49,845 | root | INFO | Scoring Timer is set to 60.0 seconds
+Scoring Timer is set to 60.0 seconds
+2021-01-04 07:43:49,963 | root | INFO | 200
+200
+127.0.0.1 - - [04/Jan/2021:07:43:49 +0000] "POST /score HTTP/1.0" 200 33 "-" "ApacheBench/2.3"
