@@ -85,7 +85,7 @@ Once deployment is succeded an endpoint will be created with status showing as h
 
 ![](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Operationalizing%20Machine%20Learning/Screenshots/Bestmodel_status.JPG)
 
-## Aplication Insights
+## Application Insights
 
 Enable Application Insights using the logs.py file and make sure that Endpoints section in Azure ML Studio, showing that “Application Insights enabled” says “true”.
 We can see the status in application insights saying the failed requests, timed out requests etc.
@@ -127,7 +127,7 @@ We can see the status in application insights saying the failed requests, timed 
 
 ![](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Operationalizing%20Machine%20Learning/Screenshots/Swagger_responses.JPG)
 
-![](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Operationalizing%20Machine%20Learning/Screenshots/Swagger_API.JPG}
+![](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Operationalizing%20Machine%20Learning/Screenshots/Swagger_API.JPG)
 
 Now we run the Endpoint.py file and see the results 
 
@@ -182,12 +182,12 @@ Now, we proceed to publish the pipeline
 
 ![](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Operationalizing%20Machine%20Learning/Screenshots/pipeline-rest-endpoint.JPG)
 
-![](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Operationalizing%20Machine%20Learning/Screenshots/experiments_complete.JPG?
+![](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Operationalizing%20Machine%20Learning/Screenshots/experiments_complete.JPG)
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
-https://youtu.be/w1ezVwfpcDw
+## https://youtu.be/w1ezVwfpcDw
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
