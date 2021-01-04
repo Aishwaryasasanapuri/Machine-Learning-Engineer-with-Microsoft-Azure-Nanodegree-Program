@@ -129,7 +129,9 @@ We can see the status in application insights saying the failed requests, timed 
 
 ![](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Operationalizing%20Machine%20Learning/Screenshots/Swagger_API.JPG)
 
-Now we run the Endpoint.py file by providing the Scoring url (rest endpoint url) and Authentication key that is obtainded from endpoint consume section and see the results 
+Now we run the Endpoint.py file by providing the Scoring url (rest endpoint url) and Authentication key that is obtainded from endpoint consume section and see the results
+
+![](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Operationalizing%20Machine%20Learning/Screenshots/endpointfile.JPG)
 
 ![](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Operationalizing%20Machine%20Learning/Screenshots/endpoint.JPG)
 
@@ -138,6 +140,8 @@ Now we run the Endpoint.py file by providing the Scoring url (rest endpoint url)
 Benchmarking HTTP APIs is used to find the average response time for a deployed model.A benchmark is used to create a baseline or acceptable performance measure.Here Apache Benchmark (ab) runs against the HTTP API using authentication keys to retrieve performance results
 
 We need to edit the Scoring Url and authentication key in Benchmark.sh file
+
+![](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Operationalizing%20Machine%20Learning/Screenshots/Benchmarking.JPG)
 
 ![](https://github.com/Aishwaryasasanapuri/Machine-Learning-Engineer-with-Microsoft-Azure-Nanodegree-Program/blob/main/Operationalizing%20Machine%20Learning/Screenshots/benchmark_1.JPG)
 
